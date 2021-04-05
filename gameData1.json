@@ -1,0 +1,4008 @@
+{
+    "messages": [
+        {
+            "type": "USER_UPDATE",
+            "user": {
+                "name": "pcas",
+                "flags": "gc",
+                "rank": "?"
+            }
+        },
+        {
+            "games": [
+                {
+                    "gameType": "review",
+                    "komi": -31.5,
+                    "private": true,
+                    "size": 13,
+                    "handicap": 0,
+                    "players": {
+                        "owner": {
+                            "name": "DyNd1",
+                            "flags": "c=",
+                            "rank": "8k"
+                        },
+                        "white": {
+                            "name": "Destroyerb",
+                            "flags": "=",
+                            "rank": "9d"
+                        },
+                        "black": {
+                            "name": "Jerry2013",
+                            "flags": "=",
+                            "rank": "?"
+                        }
+                    },
+                    "moveNum": 102,
+                    "global": true,
+                    "channelId": 41310676,
+                    "roomId": 22
+                }
+            ],
+            "type": "GAME_LIST",
+            "channelId": 22
+        },
+        {
+            "game": {
+                "gameType": "review",
+                "komi": -31.5,
+                "private": true,
+                "size": 13,
+                "handicap": 0,
+                "players": {
+                    "owner": {
+                        "name": "DyNd1",
+                        "flags": "c=",
+                        "rank": "8k"
+                    },
+                    "white": {
+                        "name": "Destroyerb",
+                        "flags": "=",
+                        "rank": "9d"
+                    },
+                    "black": {
+                        "name": "Jerry2013",
+                        "flags": "=",
+                        "rank": "?"
+                    }
+                },
+                "moveNum": 102,
+                "global": true,
+                "channelId": 41310676,
+                "roomId": 22
+            },
+            "type": "GAME_NOTIFY"
+        },
+        {
+            "private": true,
+            "sgfEvents": [
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 0,
+                    "props": [
+                        {
+                            "byoYomiPeriods": 3,
+                            "komi": -31.5,
+                            "timeSystem": "byo_yomi",
+                            "size": 13,
+                            "name": "RULES",
+                            "mainTime": 3600,
+                            "rules": "japanese",
+                            "byoYomiTime": 30
+                        },
+                        {
+                            "color": "white",
+                            "name": "PLAYERNAME",
+                            "text": "Destroyerb"
+                        },
+                        {
+                            "color": "black",
+                            "name": "PLAYERNAME",
+                            "text": "Jerry2013"
+                        },
+                        {
+                            "color": "white",
+                            "name": "PLAYERRANK",
+                            "int": 39
+                        },
+                        {
+                            "name": "DATE",
+                            "text": "2021-04-03"
+                        },
+                        {
+                            "name": "PLACE",
+                            "text": "The KGS Go Server at http://www.gokgs.com/"
+                        },
+                        {
+                            "name": "RESULT",
+                            "text": "B+9.50"
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 1,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 0
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 1,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 10,
+                                "y": 9
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3596.865,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 2,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 1
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 2,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 9,
+                                "y": 3
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3598.324,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 3,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 2
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 3,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 2,
+                                "y": 9
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3594.98,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 4,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 3
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 4,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 2,
+                                "y": 3
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3595.959,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 5,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 4
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 5,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 10,
+                                "y": 2
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3588.255,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 6,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 5
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 6,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 9,
+                                "y": 2
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3592.812,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 7,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 6
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 7,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 10,
+                                "y": 3
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3585.199,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 8,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 7
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 8,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 10,
+                                "y": 4
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3590.307,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 9,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 8
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 9,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 11,
+                                "y": 4
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3583.068,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 10,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 9
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 10,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 11,
+                                "y": 5
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3587.61,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 11,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 10
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 11,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 10,
+                                "y": 5
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3569.952,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 12,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 11
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 12,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 9,
+                                "y": 4
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3585.612,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 13,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 12
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 13,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 11,
+                                "y": 6
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3555.532,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 14,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 13
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 14,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 11,
+                                "y": 3
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3581.507,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 15,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 14
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 15,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 12,
+                                "y": 5
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3550.773,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 16,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 15
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 16,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 11,
+                                "y": 2
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3579.125,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 17,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 16
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 17,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 4,
+                                "y": 2
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3534.781,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 18,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 17
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 18,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 3,
+                                "y": 2
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3571.862,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 19,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 18
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 19,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 4,
+                                "y": 3
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3532.063,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 20,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 19
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 20,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 2,
+                                "y": 5
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3568.989,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 21,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 20
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 21,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 7,
+                                "y": 2
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3530.307,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 22,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 21
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 22,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 4,
+                                "y": 10
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3544.959,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 23,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 22
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 23,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 3,
+                                "y": 10
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3513.428,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 24,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 23
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 24,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 4,
+                                "y": 9
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3540.533,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 25,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 24
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 25,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 2,
+                                "y": 7
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3505.391,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 26,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 25
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 26,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 8,
+                                "y": 10
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3536.465,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 27,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 26
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 27,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 9,
+                                "y": 10
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3496.498,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 28,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 27
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 28,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 8,
+                                "y": 9
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3534.347,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 29,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 28
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 29,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 9,
+                                "y": 7
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3483.819,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 30,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 29
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 30,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 8,
+                                "y": 1
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3523.424,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 31,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 30
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 31,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 6,
+                                "y": 7
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3470.405,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 32,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 31
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 32,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 3,
+                                "y": 11
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3509.472,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 33,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 32
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 33,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 2,
+                                "y": 11
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3464.888,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 34,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 33
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 34,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 3,
+                                "y": 9
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3505.943,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 35,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 34
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 35,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 2,
+                                "y": 10
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3463.072,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 36,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 35
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 36,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 4,
+                                "y": 11
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3418.163,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 37,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 36
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 37,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 4,
+                                "y": 6
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3435.759,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 38,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 37
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 38,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 1,
+                                "y": 6
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3411.526,
+                            "int": 0
+                        },
+                        {
+                            "loc": {
+                                "x": 4,
+                                "y": 1
+                            },
+                            "name": "LABEL",
+                            "text": "E"
+                        },
+                        {
+                            "loc": {
+                                "x": 8,
+                                "y": 1
+                            },
+                            "name": "LABEL",
+                            "text": "D"
+                        },
+                        {
+                            "loc": {
+                                "x": 1,
+                                "y": 6
+                            },
+                            "name": "LABEL",
+                            "text": "A"
+                        },
+                        {
+                            "loc": {
+                                "x": 3,
+                                "y": 11
+                            },
+                            "name": "LABEL",
+                            "text": "B"
+                        },
+                        {
+                            "loc": {
+                                "x": 9,
+                                "y": 11
+                            },
+                            "name": "LABEL",
+                            "text": "C"
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 39,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 38
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 39,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 2,
+                                "y": 6
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3432.904,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 40,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 39
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 40,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 1,
+                                "y": 7
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3409.256,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 41,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 40
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 41,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 1,
+                                "y": 8
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3430.828,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 42,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 41
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 42,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 3,
+                                "y": 5
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3408.088,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 43,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 42
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 43,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 3,
+                                "y": 6
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3429.019,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 44,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 43
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 44,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 9,
+                                "y": 11
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3404.846,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 45,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 44
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 45,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 10,
+                                "y": 11
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3422.973,
+                            "int": 0
+                        },
+                        {
+                            "loc": {
+                                "x": 4,
+                                "y": 6
+                            },
+                            "name": "LABEL",
+                            "text": "A"
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 46,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 45
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 46,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 9,
+                                "y": 9
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3403.066,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 47,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 46
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 47,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 10,
+                                "y": 10
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3421.216,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 48,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 47
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 48,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 8,
+                                "y": 11
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3401.035,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 49,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 48
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 49,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 4,
+                                "y": 5
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3398.97,
+                            "int": 0
+                        },
+                        {
+                            "loc": {
+                                "x": 4,
+                                "y": 5
+                            },
+                            "name": "LABEL",
+                            "text": "B"
+                        },
+                        {
+                            "loc": {
+                                "x": 4,
+                                "y": 6
+                            },
+                            "name": "LABEL",
+                            "text": "C"
+                        },
+                        {
+                            "loc": {
+                                "x": 6,
+                                "y": 7
+                            },
+                            "name": "LABEL",
+                            "text": "A"
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 50,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 49
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 50,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 4,
+                                "y": 1
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3392.496,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 51,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 50
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 51,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 3,
+                                "y": 4
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3383.876,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 52,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 51
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 52,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 2,
+                                "y": 4
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3389.257,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 53,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 52
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 53,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 3,
+                                "y": 3
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3380.654,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 54,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 53
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 54,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 3,
+                                "y": 1
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3386.624,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 55,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 54
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 55,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 5,
+                                "y": 1
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3375.683,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 56,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 55
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 56,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 10,
+                                "y": 12
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3357.832,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 57,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 56
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 57,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 11,
+                                "y": 12
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3372.326,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 58,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 57
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 58,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 9,
+                                "y": 12
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3354.88,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 59,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 58
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 59,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 12,
+                                "y": 11
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3369.003,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 60,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 59
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 60,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 9,
+                                "y": 8
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3350.975,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 61,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 60
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 61,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 10,
+                                "y": 8
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3367.261,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 62,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 61
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 62,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 9,
+                                "y": 5
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3346.143,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 63,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 62
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 63,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 9,
+                                "y": 6
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3365.228,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 64,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 63
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 64,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 12,
+                                "y": 3
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3344.599,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 65,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 64
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 65,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 6,
+                                "y": 5
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3329.215,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 66,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 65
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 66,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 7,
+                                "y": 4
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3336.649,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 67,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 66
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 67,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 6,
+                                "y": 3
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3315.862,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 68,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 67
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 68,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 6,
+                                "y": 1
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3331.662,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 69,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 68
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 69,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 5,
+                                "y": 2
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3311.561,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 70,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 69
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 70,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 5,
+                                "y": 0
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3326.315,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 71,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 70
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 71,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 7,
+                                "y": 5
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3306.647,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 72,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 71
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 72,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 6,
+                                "y": 8
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3322.036,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 73,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 72
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 73,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 5,
+                                "y": 8
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3301.31,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 74,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 73
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 74,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 5,
+                                "y": 9
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3319.743,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 75,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 74
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 75,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 4,
+                                "y": 8
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3297.965,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 76,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 75
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 76,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 3,
+                                "y": 8
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3318.018,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 77,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 76
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 77,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 3,
+                                "y": 7
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3296.216,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 78,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 77
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 78,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 5,
+                                "y": 7
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3314.139,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 79,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 78
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 79,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 4,
+                                "y": 7
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3291.881,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 80,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 79
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 80,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 7,
+                                "y": 7
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3312.878,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 81,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 80
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 81,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 6,
+                                "y": 6
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3290.024,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 82,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 81
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 82,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 8,
+                                "y": 7
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3310.459,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 83,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 82
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 83,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 7,
+                                "y": 6
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3288.286,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 84,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 83
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 84,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 12,
+                                "y": 4
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3306.241,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 85,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 84
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 85,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 11,
+                                "y": 5
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3285.829,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 86,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 85
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 86,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 7,
+                                "y": 1
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3304.826,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 87,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 86
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 87,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 7,
+                                "y": 3
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3283.145,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 88,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 87
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 88,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 8,
+                                "y": 4
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3295.96,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 89,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 88
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 89,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 6,
+                                "y": 4
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3280.768,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 90,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 89
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 90,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 2,
+                                "y": 12
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3285.874,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 91,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 90
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 91,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 1,
+                                "y": 12
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3277.875,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 92,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 91
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 92,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 3,
+                                "y": 12
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3281.974,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 93,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 92
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 93,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 0,
+                                "y": 11
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3275.277,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 94,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 93
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 94,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 2,
+                                "y": 8
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3272.356,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 95,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 94
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 95,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 1,
+                                "y": 9
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3269.909,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 96,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 95
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 96,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 8,
+                                "y": 6
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3268.482,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 97,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 96
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 97,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 8,
+                                "y": 5
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3265.925,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 98,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 97
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 98,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 7,
+                                "y": 8
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3266.622,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 99,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 98
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 99,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 0,
+                                "y": 8
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 100,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 99
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 100,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 10,
+                                "y": 7
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 101,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 100
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 101,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 10,
+                                "y": 6
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 102,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 101
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 102,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 11,
+                                "y": 7
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 103,
+                    "position": 1,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 98
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 103,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 10,
+                                "y": 7
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 104,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 103
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 104,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 8,
+                                "y": 2
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3266.059,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 105,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 104
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 105,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 8,
+                                "y": 3
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3203.33,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 106,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 105
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 106,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 0,
+                                "y": 7
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3262.796,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 107,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 106
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 107,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 0,
+                                "y": 8
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3200.443,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 108,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 107
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 108,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 1,
+                                "y": 5
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3260.729,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 109,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 108
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 109,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 6,
+                                "y": 2
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3198.593,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 110,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 109
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 110,
+                    "props": [
+                        {
+                            "loc": "PASS",
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3260.729,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 111,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 110
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 111,
+                    "props": [
+                        {
+                            "loc": "PASS",
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3198.593,
+                            "int": 0
+                        },
+                        {
+                            "loc": {
+                                "x": 0,
+                                "y": 0
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 1,
+                                "y": 0
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 2,
+                                "y": 0
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 3,
+                                "y": 0
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 4,
+                                "y": 0
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 6,
+                                "y": 0
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 7,
+                                "y": 0
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 8,
+                                "y": 0
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 9,
+                                "y": 0
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 10,
+                                "y": 0
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 11,
+                                "y": 0
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 12,
+                                "y": 0
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 0,
+                                "y": 1
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 1,
+                                "y": 1
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 2,
+                                "y": 1
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 9,
+                                "y": 1
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 10,
+                                "y": 1
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 11,
+                                "y": 1
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 12,
+                                "y": 1
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 0,
+                                "y": 2
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 1,
+                                "y": 2
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 2,
+                                "y": 2
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 10,
+                                "y": 2
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 12,
+                                "y": 2
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 0,
+                                "y": 3
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 1,
+                                "y": 3
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 10,
+                                "y": 3
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 0,
+                                "y": 4
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 1,
+                                "y": 4
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 0,
+                                "y": 5
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 0,
+                                "y": 6
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 8,
+                                "y": 8
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 6,
+                                "y": 9
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 7,
+                                "y": 9
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 5,
+                                "y": 10
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 6,
+                                "y": 10
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 7,
+                                "y": 10
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 5,
+                                "y": 11
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 6,
+                                "y": 11
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 7,
+                                "y": 11
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 4,
+                                "y": 12
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 5,
+                                "y": 12
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 6,
+                                "y": 12
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 7,
+                                "y": 12
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 8,
+                                "y": 12
+                            },
+                            "color": "white",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 5,
+                                "y": 3
+                            },
+                            "color": "black",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 4,
+                                "y": 4
+                            },
+                            "color": "black",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 5,
+                                "y": 4
+                            },
+                            "color": "black",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 5,
+                                "y": 5
+                            },
+                            "color": "black",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 5,
+                                "y": 6
+                            },
+                            "color": "black",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 10,
+                                "y": 6
+                            },
+                            "color": "black",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 12,
+                                "y": 6
+                            },
+                            "color": "black",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 5,
+                                "y": 7
+                            },
+                            "color": "black",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 11,
+                                "y": 7
+                            },
+                            "color": "black",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 12,
+                                "y": 7
+                            },
+                            "color": "black",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 11,
+                                "y": 8
+                            },
+                            "color": "black",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 12,
+                                "y": 8
+                            },
+                            "color": "black",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 0,
+                                "y": 9
+                            },
+                            "color": "black",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 11,
+                                "y": 9
+                            },
+                            "color": "black",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 12,
+                                "y": 9
+                            },
+                            "color": "black",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 0,
+                                "y": 10
+                            },
+                            "color": "black",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 1,
+                                "y": 10
+                            },
+                            "color": "black",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 11,
+                                "y": 10
+                            },
+                            "color": "black",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 12,
+                                "y": 10
+                            },
+                            "color": "black",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 1,
+                                "y": 11
+                            },
+                            "color": "black",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 11,
+                                "y": 11
+                            },
+                            "color": "black",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 0,
+                                "y": 12
+                            },
+                            "color": "black",
+                            "name": "TERRITORY"
+                        },
+                        {
+                            "loc": {
+                                "x": 12,
+                                "y": 12
+                            },
+                            "color": "black",
+                            "name": "TERRITORY"
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 112,
+                    "position": 1,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 69
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 112,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 5,
+                                "y": 0
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3329.038,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 113,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 112
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 113,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 6,
+                                "y": 2
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3310.94,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 114,
+                    "position": 1,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 64
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 114,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 7,
+                                "y": 4
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "loc": {
+                                "x": 5,
+                                "y": 2
+                            },
+                            "name": "TRIANGLE"
+                        },
+                        {
+                            "loc": {
+                                "x": 6,
+                                "y": 2
+                            },
+                            "name": "TRIANGLE"
+                        },
+                        {
+                            "loc": {
+                                "x": 6,
+                                "y": 3
+                            },
+                            "name": "TRIANGLE"
+                        },
+                        {
+                            "loc": {
+                                "x": 6,
+                                "y": 4
+                            },
+                            "name": "TRIANGLE"
+                        },
+                        {
+                            "loc": {
+                                "x": 6,
+                                "y": 5
+                            },
+                            "name": "TRIANGLE"
+                        },
+                        {
+                            "loc": {
+                                "x": 6,
+                                "y": 6
+                            },
+                            "name": "TRIANGLE"
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 115,
+                    "position": 1,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 63
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 115,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 12,
+                                "y": 3
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3340.205,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 116,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 115
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 116,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 3,
+                                "y": 8
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3360.279,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 117,
+                    "position": 2,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 63
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 117,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 12,
+                                "y": 3
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3344.973,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 118,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 117
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 118,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 12,
+                                "y": 4
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3361.063,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 119,
+                    "position": 1,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 35
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 119,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 4,
+                                "y": 11
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3503.223,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 120,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 119
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 120,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 3,
+                                "y": 8
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3459.369,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 121,
+                    "position": 1,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 31
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 121,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 3,
+                                "y": 11
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3518.984,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 122,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 121
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 122,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 3,
+                                "y": 9
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3467.736,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 123,
+                    "position": 1,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 19
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 123,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 2,
+                                "y": 5
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3568.591,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 124,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 123
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 124,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 6,
+                                "y": 2
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3528.974,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 125,
+                    "position": 2,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 19
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 125,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 2,
+                                "y": 5
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3554.576,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 126,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 125
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 126,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 6,
+                                "y": 3
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3528.277,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 127,
+                    "position": 3,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 19
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 127,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 2,
+                                "y": 5
+                            },
+                            "color": "white",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "white",
+                            "name": "TIMELEFT",
+                            "float": 3568.628,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "childNodeId": 128,
+                    "type": "CHILD_ADDED",
+                    "nodeId": 127
+                },
+                {
+                    "type": "PROP_GROUP_ADDED",
+                    "nodeId": 128,
+                    "props": [
+                        {
+                            "loc": {
+                                "x": 7,
+                                "y": 3
+                            },
+                            "color": "black",
+                            "name": "MOVE"
+                        },
+                        {
+                            "color": "black",
+                            "name": "TIMELEFT",
+                            "float": 3529.355,
+                            "int": 0
+                        }
+                    ]
+                },
+                {
+                    "prevNodeId": -1,
+                    "type": "ACTIVATED",
+                    "nodeId": 102
+                }
+            ],
+            "gameSummary": {
+                "gameType": "review",
+                "score": "UNFINISHED",
+                "private": true,
+                "komi": -31.5,
+                "size": 13,
+                "players": {
+                    "owner": {
+                        "name": "DyNd1",
+                        "flags": "c=",
+                        "rank": "8k"
+                    },
+                    "white": {
+                        "name": "Destroyerb",
+                        "flags": "=",
+                        "rank": "9d"
+                    },
+                    "black": {
+                        "name": "Jerry2013",
+                        "flags": "=",
+                        "rank": "?"
+                    }
+                },
+                "handicap": 0,
+                "inPlay": true,
+                "timestamp": "2021-04-05T09:54:51.822Z",
+                "revision": 209
+            },
+            "global": true,
+            "type": "GAME_JOIN",
+            "actions": [
+                {
+                    "action": "EDIT",
+                    "user": {
+                        "name": "DyNd1",
+                        "flags": "c=",
+                        "rank": "8k"
+                    }
+                }
+            ],
+            "channelId": 41310676,
+            "users": [
+                {
+                    "name": "DyNd1",
+                    "flags": "c=",
+                    "rank": "8k"
+                }
+            ]
+        },
+        {
+            "type": "JOIN_COMPLETE",
+            "channelId": 41310676
+        }
+    ]
+}

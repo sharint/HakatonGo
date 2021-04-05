@@ -1,0 +1,210 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jGoBoard SGF Player Demo</title>
+  <link rel="stylesheet" href="/static/demoSGF1.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link  href="/static/buttons.css"  rel="stylesheet">
+  <style>
+    *{
+      background: #FFCF7A;
+    }
+  </style>
+
+
+</head>
+<body onload="loadFile();">
+  <form action="/index" style="text-align: left;">
+    <input type="submit"  class="previous" value="&laquo; Назад">
+  </form>
+<div id="main">
+
+
+<div style="text-align: center; width: 100%">
+<div style="display: inline-block;">
+  <div id="infopane" style="float: inherit;">
+    <h2 style="font-size: 26px; font-weight: 800;">Информация об игре</h2>
+    <p style="float:inherit; font-size: 22px;" id="information"></p>
+    <p style="float:left; font-size: 22px;">
+    Очки черных: <strong  id="black_captures"></strong><br></p>
+    <p style="float:right; font-size: 22px;">
+    Очки белых: <strong id="white_captures"></strong>
+    </p>
+    
+  </div>
+  <div style="float:inherit; background: #FFCF7A;">
+    <div id="board" style="background: #FFCF7A; border-color: #FFCF7A;"></div>
+    
+    <p class="controls" style="width: 500px; background: #FFCF7A;border-color: #FFCF7A;">
+    <a href="#" onclick="move(0); return false;"><i class="fa fa-fast-backward"></i></a>
+    <a href="#" onclick="move(-10); return false;"><i class="fa fa-backward"></i></a>
+    <a href="#" onclick="move(-1); return false;"><i class="fa fa-step-backward"></i></a>
+    <strong id="move">1</strong> / <strong id="moves">1</strong>
+    <a href="#" onclick="move(1); return false;"><i class="fa fa-step-forward"></i></a>
+    <a href="#" onclick="move(10); return false;"><i class="fa fa-forward"></i></a>
+    <a href="#" onclick="move(1000); return false;"><i class="fa fa-fast-forward"></i></a>
+    
+    </p>
+  </div>
+
+  
+
+  <div style="clear: both; background: #FFCF7A;"></div>
+</div>
+</div>
+
+<script type="text/javascript" src="static/dist/jgoboard-latest.js"></script>
+<script type="text/javascript" src="static/medium/board.js"></script>
+<script type="text/javascript" src="static/large/board.js"></script>
+<script type="text/javascript">
+var moveNum = 0, moves = 0, gotoMove = 0;
+var jrecord = false, jnotifier;
+
+function move(dir) { // dir=0 has special meaning "beginning"
+  if(!jrecord) return; // disable movement until SGF loaded
+
+  if(dir == 0) {
+    jrecord.first();
+    moveNum = 0;
+  }
+  while(dir < 0) {
+    if(!jrecord.previous()) break;
+    moveNum--; dir++;
+  }
+  while(dir > 0) {
+    if(!jrecord.next()) break;
+    moveNum++; dir--;
+  }
+  updateInfo();
+}
+
+function nextVariation() {
+  jrecord.setVariation((jrecord.getVariation() + 1) % jrecord.getVariations());
+}
+
+function updateInfo() {
+  var info = jrecord.getCurrentNode().info;
+  $('#move').html(moveNum);
+  $('#comments').html(info.comment ? info.comment.replace(/\n/g, '<br>') : '');
+  $('#black_captures').html(info.captures[JGO.BLACK]);
+  $('#white_captures').html(info.captures[JGO.WHITE]);
+  $('#variation').html(jrecord.getVariation()+1);
+  $('#variations').html(jrecord.getVariations());
+}
+
+function updateGameInfo(info) {
+  var html = "";
+
+  if("black" in info) {
+    html += "Играет черными: <strong>" + info.black;
+    if("blackRank" in info) html += ", " + info.blackRank;
+    html += "</strong><br />";
+  }
+
+  if("white" in info) {
+    html += "Играет белыми: <strong>" + info.white;
+    if("whiteRank" in info) html += ", " + info.whiteRank;
+    html += "</strong><br />";
+  }
+
+  var additional = [["result", "Итог игры"]];
+
+  $.each(additional, function(i, tup) {
+      if(tup[0] in info)
+      html += tup[1] + ": <strong>" + info[tup[0]] + "</strong><br>";
+      });
+
+  $('#information').html(html);
+}
+
+function getParams() { // VERY simple query parameter parse
+  var params = {}, url = window.location.toString();
+  if(url.indexOf('?') !== -1) {
+    url.substr(url.indexOf('?')+1).split('&').forEach(function(pair) {
+        var pos = pair.indexOf('=');
+        if(pos === -1) return; // skip if no equals sign
+        params[pair.substr(0, pos)] = pair.substr(pos+1);
+    });
+  }
+  return params;
+}
+
+$(document).ready(function() {
+  $("body").keydown(function(e) { // left/right arrow navigation
+    if(e.keyCode == 37) move(-1);
+    else if(e.keyCode == 39) move(1);
+  });
+
+  var params = getParams(); // parse URL parameters
+  var jboard = new JGO.Board(19, 19), jsetup; // hardcoded size
+
+  if('board' in params && params.board in JGO.BOARD)
+    jsetup = new JGO.Setup(jboard, JGO.BOARD[params.board]);
+  else
+    jsetup = new JGO.Setup(jboard, JGO.BOARD.medium);
+
+  // we can use this to change the board to listen to
+  notifier = jsetup.getNotifier();
+
+  jsetup.create('board', function(canvas) {
+    canvas.addListener('click', function(c) {
+      if(c.i < 10) move(-1); // back
+      if(c.i > 10) move(1); // forward
+    });
+  });
+
+  if('hidemenu' in params) $('#menu').hide();
+  if('hideinfo' in params) $('#infopane').hide();
+  if('move' in params) gotoMove = parseInt(params.move);
+  if('url' in params) loadURL(params.url); // load straight away
+});
+
+function loadSGF(sgf) {
+  jrecord = JGO.sgf.load(sgf, true);
+
+  if(typeof jrecord == 'string') {
+    alert('Error loading SGF: ' + jrecord);
+    return;
+  }
+
+  if(!(jrecord instanceof JGO.Record)) {
+    alert('Empty SGF or multiple games in one SGF not supported!');
+    return;
+  }
+
+  $('#moves').html(jrecord.normalize()-1); // longest sequence first
+  notifier.changeBoard(jrecord.getBoard());
+  updateGameInfo(jrecord.getRootNode().info);
+  moveNum = 0;
+  move(gotoMove); // also updates game info
+  gotoMove = 0;
+}
+
+function loadURL(url) {
+  $.ajax('https://jgoboard.com/get_sgf.php', {
+    dataType: 'jsonp', data: {url: url}, complete: function(resp) {
+      loadSGF(resp.responseJSON);
+    }
+  });
+}
+
+    function loadFile() {
+        
+        
+	var reader = new FileReader();
+	reader.onload = function() { loadSGF(reader.result); };
+  $.ajax({
+            type: 'GET', url: "/static/game1.sgf", data: {}, //passing some input here
+            dataType: "text", success: function (response) { output = response; }
+        }).done(function (data) { 
+          reader.readAsText(new File([data], "jdkfndjkf.dkfjjnhsdf"), "UTF-8");
+        });
+	
+}
+</script>
+
+</div>
+</body>
+</html>
