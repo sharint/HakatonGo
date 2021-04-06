@@ -1,0 +1,41 @@
+<html !DOCTYPE>
+    <head>
+    <title>Mango top 100</title>
+    <link  href="/static/stylesfortable14.css"  rel="stylesheet">
+    <link  href="/static/buttons.css"  rel="stylesheet">
+	<link rel="icon" type="image/png" href="../static/logoMango.png" sizes="48x48">
+
+    </head>
+    <body>
+       <table>
+        <caption>Топ 100 игроков</caption>
+
+        <tr>
+            <th>Позиция игрока</th>
+            <th>Имя игрока</th>
+            <th>Ранг игрока</th>
+            <th>Последняя игра</th>
+            <th>Предпоследняя игра</th>
+
+        </tr>
+       {% for name in players %}
+       <tr>
+           <td class="place">{{ ( players.index(name)+1) }}</a></td>
+           <td>{{ name }}</td>
+           <td> {{ ranks[players.index(name)] }} </td>
+
+           <td> 
+               <form  action="/SGF" method="POST" >
+               <input class="double-border-button" name = "{{name}} 1"  type="submit" value="Последняя">
+            </form>
+            </td>
+           <td> 
+            <form action="/SGF" method="POST" >
+                <input class="double-border-button" name = "{{name}} 2"  type="submit" value="Предпоследняя">
+            </form>
+            </td>
+       </tr>
+       {% endfor %}  
+    </table>
+    </body>
+    </html>

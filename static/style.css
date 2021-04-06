@@ -1,0 +1,446 @@
+.bgrnd__FS{
+position: absolute;
+width: 1920px;
+height: 800px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(180deg, rgba(24, 23, 23, 0.5) 0%, rgba(255, 255, 255, 0) 100%), url(mainScreen.png);
+ background-size: contain;
+ 
+}
+
+.txt__firtstTitle{
+	position: absolute;
+width: 1047px;
+height: 224px;
+left: 448px;
+top: 400px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 160%;
+/* or 102px */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.header_{
+	position: absolute;
+width: 1920px;
+height: 90px;
+left: 0px;
+top: 0px;
+}
+
+.man{
+	position: absolute;
+width: 306px;
+height: 65px;
+left: 95px;
+top: 0px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 135%;
+/* or 86px */
+
+
+color: #FFFFFF;
+}
+
+.view{
+	position: absolute;
+width: 295px;
+height: 49px;
+left: 490px;
+top: 17px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 135%;
+/* identical to box height, or 49px */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.topp{
+	position: absolute;
+width: 82px;
+height: 22px;
+left: 650px;
+top: 500px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 135%;
+/* or 32px */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.blk2{
+	position: absolute;
+width: 1920px;
+height: 426px;
+left: 0px;
+top: 800px;
+
+/* Main / Blue */
+
+background: #2378FC;
+}
+
+.txt__blk{
+	position: absolute;
+	width: 210px;
+height: 31px;
+left: 10%;
+top: 20%;
+
+	margin-left: 10%;
+}
+
+.big__txt{
+	position: absolute;
+width: 510px;
+height: 31px;
+left: 403px;
+top: 875px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 130%;
+/* or 31px */
+
+letter-spacing: -0.01em;
+
+color: #FFFFFF;
+}
+
+.txt11{
+	position: absolute;
+width: 505px;
+height: 22px;
+left: 405px;
+top: 944px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 135%;
+/* identical to box height, or 22px */
+
+color: #FFFFFF;
+}
+
+.big__txt2{
+	position: absolute;
+width: 188px;
+height: 31px;
+left: 732px;
+top: 875px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 130%;
+/* or 31px */
+
+letter-spacing: -0.01em;
+
+color: #FFFFFF;
+
+}
+.txt22{
+	position: absolute;
+width: 182px;
+height: 22px;
+left: 734px;
+top: 944px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 135%;
+/* identical to box height, or 22px */
+
+
+color: #FFFFFF;
+}
+
+.big__txt3{
+	position: absolute;
+width: 188px;
+height: 31px;
+left: 1041px;
+top: 875px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 130%;
+/* or 31px */
+
+letter-spacing: -0.01em;
+
+color: #FFFFFF;
+
+}
+.txt33{
+	position: absolute;
+width: 186px;
+height: 22px;
+left: 1043px;
+top: 944px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 135%;
+/* identical to box height, or 22px */
+
+
+color: #FFFFFF;
+}
+
+.big__txt4{
+	position: absolute;
+width: 469px;
+height: 31px;
+left: 1348px;
+top: 875px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 130%;
+/* or 31px */
+
+letter-spacing: -0.01em;
+
+color: #FFFFFF;
+}
+
+.txt44{
+	position: absolute;
+width: 467px;
+height: 22px;
+left: 1348px;
+top: 944px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 135%;
+/* identical to box height, or 22px */
+
+
+color: #FFFFFF;
+}
+.blk3{
+	position: absolute;
+width: 1920px;
+height: 984px;
+left: 0px;
+top: 0px;
+
+/* Main / IceCream */
+
+background: #FFCF7A;
+}
+.mangos{
+	position: absolute;
+width: 1087.12px;
+height: 748.6px;
+left: 434px;
+top: 61px;
+}
+
+.game__num{
+	position: absolute;
+width: 455px;
+height: 39px;
+left: 405px;
+top: 75px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 130%;
+/* identical to box height, or 39px */
+
+letter-spacing: -0.01em;
+
+/* other / black */
+
+color: #2E373B;
+}
+
+.all__games{
+ position: absolute;
+width: 141px;
+height: 27px;
+left: 1334px;
+top: 84px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 130%;
+/* or 27px */
+
+text-align: right;
+letter-spacing: -0.01em;
+	cursor: pointer;
+}
+.man1{
+	position: absolute;
+width: 72px;
+height: 77px;
+left: 657px;
+top: 787px;
+}
+.man2{
+	position: absolute;
+width: 72px;
+height: 77px;
+left: 1165px;
+top: 787px;
+}
+.plr1{
+	position: absolute;
+width: 103px;
+height: 60px;
+left: 625px;
+top: 884px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 130%;
+/* or 27px */
+
+letter-spacing: -0.01em;
+
+color: #000000;
+}
+
+.plr2{
+	position: absolute;
+width: 103px;
+height: 60px;
+left: 1135px;
+top: 884px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 130%;
+/* or 27px */
+
+text-align: right;
+letter-spacing: -0.01em;
+
+color: #000000;
+}
+
+.arrow__left{
+	position: absolute;
+width: 57px;
+height: 46px;
+left: 860px;
+top: 914px;
+cursor: pointer;
+}
+
+.arrow__right{
+	position: absolute;
+width: 57px;
+height: 46px;
+left: 975px;
+top: 914px;
+cursor: pointer;
+}
+
+.top__blk{
+	position: absolute;
+width: 1920px;
+height: 1125px;
+left: 0px;
+top: 0px;
+
+/* Main / Blue */
+
+background: #2378FC;
+}
+
+.top__title{
+	position: absolute;
+width: 768px;
+height: 54px;
+left: 560px;
+top: 57px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 72px;
+line-height: 130%;
+/* or 94px */
+
+text-align: center;
+letter-spacing: -0.01em;
+
+color: #000000;
+}
+
+.top__back{
+	position: absolute;
+width: 195px;
+height: 27px;
+left: 1447px;
+top: 111px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 130%;
+/* or 27px */
+
+text-align: right;
+letter-spacing: -0.01em;
+text-decoration-line: underline;
+
+/* other / black */
+
+color: #2E373B;
+}

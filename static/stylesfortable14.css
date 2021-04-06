@@ -1,0 +1,104 @@
+body {
+    background: #2378FC    ; 
+}
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    text-align: left;
+    border-collapse: collapse;
+    border-radius: 20px;
+    box-shadow: 0 0 0 10px #fed57b;
+    color: #452F21;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    }
+caption{
+      margin-bottom: 5%;
+      width: auto;
+      margin-left: auto;
+      margin-right: auto;
+      letter-spacing: 2px;
+      font-family: 'Merriweather', serif;
+      font-size: 20px;
+      letter-spacing: 1px;
+      max-width: 320px;
+      position: relative;
+      color: #ffffd7 ;
+	  font-size:200%;
+
+    }
+caption:before{
+        content: "";
+        position: absolute;
+        top: 50%;
+        margin-top: -8px;
+        left: -35px;
+        width: 10px;
+        height: 10px;
+        border: 3px solid #fed57b;
+        transform: rotate(45deg)
+      }
+caption:after{
+        content: "";
+        position: absolute;
+        top: 50%;
+        margin-top: -8px;
+        right: -35px;
+        width: 10px;
+        height: 10px;
+        border: 3px solid #fed57b;
+        transform: rotate(45deg)
+      }
+
+th {
+    padding: 10px 8px;
+    background: white;
+    text-align: center;
+    }
+table th:first-child {
+    border-top-left-radius: 20px;
+    }
+table th:last-child {
+    border-top-right-radius: 20px;
+    }
+td {
+    border-top: 10px solid #fed57b;
+    padding: 8px;
+    background: white;
+    text-align: center;
+    }
+
+.double-border-button {
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 10px 30px;
+    position: relative;
+    border: 2px solid #f1c40f;
+    color: #5c5426;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    transition: .4s;
+    }
+    .double-border-button:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border: 2px solid rgba(0, 0, 0, 0);
+    transition: .4s;
+    }
+    .double-border-button:hover::after {
+    border-color: #4b483d;
+    width: calc(100% - 5%);
+    height: calc(100% + 5%);
+    }
+    .place {
+        font-weight: bold;
+    }
