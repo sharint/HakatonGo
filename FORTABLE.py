@@ -2,6 +2,7 @@ from flask import Flask, render_template,redirect,request
 import top100Players
 import requesting
 import timeParse
+import time
 
 app = Flask(__name__)
 
@@ -21,6 +22,7 @@ def start():
         result = list(request.form.to_dict().keys())[0]
         result = result.split(" ")
         timeStamp1,timeStamp2 = requesting.getSGFFile(result[0])
+        time.sleep(2)
         startTime1 = timeParse.convertTime(timeStamp1)
         startTime2 = timeParse.convertTime(timeStamp2)
         return render_template("jgoboard-master/demoSGF"+str(result[1])+".html",result = result,game1 = startTime1,game2 = startTime2)
